@@ -39,26 +39,25 @@ This project contain some useful aliasses that you can run in your terminal that
 You can type in the alias in your terminal. This is a list of available aliasses.
 
 
-| Alias Name             | Command                        | Description                                                        |
-|------------------------|--------------------------------|--------------------------------------------------------------------|
-| `btm-basic`            | `btm --basic`                  | Launches `btm` in basic mode, hiding graphs for a simpler view.   |
-| `btm-battery`          | `btm --battery`                | Shows the battery widget in `btm`.                                 |
-| `btm_temp`             | `btm_temp <scale>`             | Sets the temperature scale (celsius, fahrenheit, kelvin).         |
-| `btm_config`           | `btm_config <path>`            | Uses a custom config file for `btm`.                              |
-| `btm_rate`             | `btm_rate <rate>`              | Sets the data refresh rate for `btm`.                             |
-| `btm_retention`        | `btm_retention <time>`         | Specifies the data retention time for `btm`.                      |
-| `btm_group`            | `btm_group <on|off>`           | Enables/disables grouping of processes in `btm`.                  |
-| `btm_expanded`         | `btm_expanded <on|off>`        | Expands/collapses the default widget in `btm`.                    |
-| `btm_color`            | `btm_color <scheme>`           | Sets the color scheme for `btm`.                                  |
-| `btm-mem-value`        | `btm --mem_as_value`           | Defaults to showing process memory usage by value in `btm`.       |
-| `btm-net-binary`       | `btm --network_use_binary_prefix` | Displays network usage with binary prefixes in `btm`.          |
-| `btm-net-bytes`        | `btm --network_use_bytes`      | Displays network widget using bytes in `btm`.                      |
-| `btm-net-log`          | `btm --network_use_log`        | Displays the network widget with a log scale in `btm`.            |
-| `btm-process-cmd`      | `btm --process_command`        | Shows processes as their command lines by default in `btm`.       |
-| `btm-case-sensitive`   | `btm --case_sensitive`         | Enables case sensitivity by default in `btm`.                     |
-| `btm-regex`            | `btm --regex`                  | Enables regex by default for filtering in `btm`.                  |
-| `btm-whole-word`       | `btm --whole_word`             | Enables whole-word matching by default in `btm`.                  |
-
+| Alias/Function Name     | Command                                      | Description                                                   |
+|-------------------------|----------------------------------------------|---------------------------------------------------------------|
+| `btm-basic`             | `alias btm-basic='btm --basic'`              | Launches btm in basic mode without graphs.                    |
+| `btm-battery`           | `alias btm-battery='btm --battery'`          | Shows the battery widget.                                     |
+| `btm_temp`              | `btm_temp <scale>`                           | Sets the temperature scale (Celsius, Fahrenheit, Kelvin).     |
+| `btm_config`            | `btm_config <path>`                          | Uses a custom configuration file.                             |
+| `btm_rate`              | `btm_rate <rate>`                            | Sets the data refresh rate.                                   |
+| `btm_retention`         | `btm_retention <time>`                       | Specifies the data retention time.                            |
+| `btm_group`             | `btm_group <on/off>`                         | Enables/disables grouping of processes.                       |
+| `btm_expanded`          | `btm_expanded <on/off>`                      | Expands/collapses the default widget.                         |
+| `btm_color`             | `btm_color <scheme>`                         | Sets the color scheme.                                        |
+| `btm-mem-value`         | `alias btm-mem-value='btm --mem_as_value'`   | Defaults to showing process memory usage by value.            |
+| `btm-net-binary`        | `alias btm-net-binary='btm --network_use_binary_prefix'` | Displays network usage with binary prefixes.            |
+| `btm-net-bytes`         | `alias btm-net-bytes='btm --network_use_bytes'` | Displays network usage in bytes.                          |
+| `btm-net-log`           | `alias btm-net-log='btm --network_use_log'`  | Displays the network widget with a log scale.                 |
+| `btm-process-cmd`       | `alias btm-process-cmd='btm --process_command'` | Shows processes as their command lines by default.        |
+| `btm-case-sensitive`    | `alias btm-case-sensitive='btm --case_sensitive'` | Enables case sensitivity by default.                     |
+| `btm-regex`             | `alias btm-regex='btm --regex'`              | Enables regex by default.                                     |
+| `btm-whole-word`        | `alias btm-whole-word='btm --whole_word'`    | Enables whole-word matching by default.                       |
   
 ## Contributing
 
